@@ -3,7 +3,7 @@ import React, { useState, useRef, useCallback } from 'react';
 import { Camera, RotateCcw, CheckCircle2, Share2, Star, ArrowRight, Upload, Image as ImageIcon } from 'lucide-react';
 import { AppState, ZodiacSign, AnalysisResult } from './types';
 import { ZODIAC_LIST, CATEGORY_ICONS } from './constants';
-import { analyzePalm } from './services/openaiService';
+import { analyzePalm } from './services/palmApi';
 import RadarChart from './components/RadarChart';
 
 const App: React.FC = () => {
