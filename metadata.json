@@ -1,0 +1,7 @@
+{
+  "name": "AI手相鑑定 ★ Libra",
+  "description": "最新のAI技術と西洋占星術を組み合わせた、あなただけの本格手相占いアプリ。手の写真を撮るだけで、2026年の運勢やあなたの本質を精密に解き明かします。",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
